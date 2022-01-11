@@ -1,0 +1,30 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: muli,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: aqua;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* 1. Header */
+.wine__header{
+    background: #ffffff;
+}
+
+.wine__header-logo-img

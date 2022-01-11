@@ -1,0 +1,122 @@
+:root{
+    --word-active: #a53e4c;
+    --word-color: #000;
+}
+
+html{
+    font-size: 62.5%;
+    height: 10000px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: muli,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color: aqua; */
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* 1. Header */
+.wine__header{
+    position: fixed;
+    background: #ffffff;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wine__header-logo-img{
+    width: 8rem;
+    margin: 0.7rem 0;
+}
+
+.wine__header-left{
+    display: flex;
+    margin-left: 5.1rem;
+}
+
+.wine__header-right{
+    display: flex;
+    margin-right: 5.1rem;
+}
+
+.wine__header-item{
+    padding: 32px;
+}
+
+.wine__header-link.active{
+    color: var(--word-active);
+}
+
+.wine__header-link{
+    line-height: 2.6rem;
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: var(--word-color);
+    transition: all ease 0.2s;
+}
+
+
+.wine__header-item:hover .wine__header-link{
+    color: var(--word-active);
+}
+
+/* 2. Sub header */
+
+.wine__header-item.have-child{
+    position: relative;
+}
+
+.wine__subheader{
+    padding: 0 3.2rem;
+    display: flex;
+    background: #121212;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.2s;
+}
+
+.wine__header-item.have-child:hover .wine__subheader{
+    visibility: visible;
+    opacity: 1;
+}
+
+.wine__subheader-link{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    white-space: nowrap;
+    transition: all ease 0.2s;
+}
+
+.wine__subheader-item:hover .wine__subheader-link{
+    color: var(--word-active);
+}
+
+.wine__subheader li{
+    padding: 1.4rem 0;
+}
+
+.wine__subheader > li:first-child{
+    margin-right: 10rem;
+}
+
+/* 3.  */
