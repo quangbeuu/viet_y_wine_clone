@@ -1,0 +1,45 @@
+.wine__cabaret{
+    padding-top: 100px;
+    margin: 0 51px;
+}
+
+.wine__cabaret-title{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 28px;
+    line-height: 34px;
+    color: #212529;
+}
+
+.wine__cabaret-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.wine__cabaret-item{
+    padding: 32px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wine__cabaret-img img{
+    width: 250px;
+}
+
+.wine__cabaret-text{
+    text-align: center;
+}
+
+.wine__cabaret-text h4{
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.wine__cabaret-text p{
+    line-height: 24px;
+    font-size: 16px;
+}

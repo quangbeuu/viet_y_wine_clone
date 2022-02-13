@@ -1,0 +1,19 @@
+.wine__intro{
+    padding-top: 90px;
+}
+
+.wine__intro-top{
+    padding: 64px 47px;
+    width: 100%;
+}
+
+
+.wine__intro-info{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.wine__intro-item{
+    display: flex;
+}

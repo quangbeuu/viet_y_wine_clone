@@ -1,0 +1,13 @@
+{
+    "wine":[
+        {
+            "id":1,
+            "header": "AMARONE DELLA VALPOLICELLA",
+            "wine_image": "https://vietywine.com/Content/AdminContent/uploadsimages/R%C6%B0%E1%BB%A3u/Monteverdi/AMA.jpg",
+            "desc_image": "https://vietywine.com/Content/AdminContent/uploadsimages/R%C6%B0%E1%BB%A3u/Monteverdi/AMA.jpg",
+            "desc-header": "RƯỢU VANG AMARONE DELLA VALPOLICELLA",
+            "desc-content": "Rượu vang Amarone Della Valpolicella của nhà Monteverdi với hương vị tuyệt hảo. Hương thơm mạnh mẽ của hoa quả đen, nho khô, cùng với hương gỗ sồi hòa quyện tạo ra sự cân bằng hoàn hảo đặc trưng cho Amarone Della Valpollicella. Amarone mang hương vị mạnh mẽ, đậm đà, chát cao và hậu vị kéo dài. Amarone Della Valpolicella có màu đỏ đậm, với hương vị đặc trưng của trái cây sấy khô và rất thích hợp khi kết hợp với các món ăn thịt nướng, thịt thú rừng và pho-mat lâu năm.",
+            "root_image": "https://vietywine.com/Content/AdminContent/uploadsimages/R%C6%B0%E1%BB%A3u/Background/Wine-PNG.png"
+        }
+    ]
+}

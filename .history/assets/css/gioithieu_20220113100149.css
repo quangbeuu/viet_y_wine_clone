@@ -1,0 +1,13 @@
+.wine__intro{
+    padding-top: 90px;
+}
+
+.wine__intro-top{
+    padding: 64px 47px 32px;
+    width: 100%;
+}
+
+.wine__intro-info{
+    display: flex;
+}
+

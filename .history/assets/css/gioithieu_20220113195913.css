@@ -1,0 +1,123 @@
+.wine__intro{
+    padding-top: 100px;
+}
+
+/* Wine-intro-top */
+.wine__intro-top{
+    padding: 64px 32px;
+    width: 100%;
+}
+
+.wine__intro-info{
+    margin-left: 25%;
+    max-width: calc(75% - 20px);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    grid-row-gap: 80px;
+}
+
+.wine__intro-item{
+    display: flex;
+}
+
+.wine__intro-content{
+    padding-left: 16px;
+}
+
+.wine__intro-content h2{
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 12px;
+    color: #212529;
+}
+
+.wine__intro-content p{
+    text-align: justify;
+    max-width: 385px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.wine__intro-image{
+    width: 55px;
+}
+
+/* Wine-intro-mid */
+
+.wine__intro-mid{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), 
+    url(/assets/img/gioithieu/banner-body.jpg);
+    /* Ảnh full hết */
+    background-size: cover;
+    position: relative;
+    padding: 64px;   
+    z-index: 0;
+}
+
+/* .wine__intro-mid::before{
+    content: "";
+    position: absolute;
+    color: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+} */
+
+.wine__mid-wrap{
+    width: 100%;
+}
+
+.wine__mid-item{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+
+.wine__mid-content{
+    width: calc(50% - 8px);
+}
+
+.wine__mid-content h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+
+.wine__mid-content p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.wine__mid-image{
+    width: calc(50% - 8px);
+    margin-right: 16px;
+}
+
+.pr-8{
+    padding-right: 8px;
+}

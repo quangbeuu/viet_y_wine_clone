@@ -1,0 +1,133 @@
+.wine__detail{
+    padding-top: 100px;
+    margin: 0 51px;
+}
+
+.wine__detail-title{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212529;
+    font-weight: 600;
+}
+
+.wine__detail-content{
+    
+}
+
+.wine__detail-row{
+    display: flex;
+    max-width: 100%;
+}
+
+.wine__detail-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wine__detail-info{
+    width: 50%;
+    position: relative;
+    height: 480px;
+}
+
+.wine__detail-info img{
+    width: 100%;
+}
+
+.detail-content{
+    /* height: 480px; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    padding: 0 32px;
+    color: #fff;
+    transform: translateY(-25%);
+    width: 100%;
+    /* height: 100%; */
+}
+
+.wine__detail-info::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.239);
+}
+
+.detail-content h3{
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.detail-content p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.wine__detail-accordion{
+    width: 50%;
+}
+
+.button-catalog{
+    position: absolute;
+    padding: 10px 24px;
+    background: #555555;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 40px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.accordion-wrap{
+    padding: 16px;
+    width: 100%;
+}
+
+.accordion-item{
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 0px 0.5px solid #f0f0f0;
+}
+
+.accordion-header{
+    font-size: 20px;
+    color: #666666;
+    line-height: 30px;
+    padding: 12px 24px;
+    border-bottom: 0.2px solid #f0f0f0;
+    cursor: pointer;
+}
+
+.accordion-header *{
+    pointer-events: none;
+}
+
+.accordion-content{
+    color: #666666;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 22px;
+    height: 0;
+    overflow: hidden;
+    transition: all linear 0.25s;
+}
+
+
+.accordion-content-inner{
+    padding: 12px 24px;
+}
+

@@ -1,0 +1,26 @@
+.wine__detail{
+    padding-top: 100px;
+    margin: 0 51px;
+}
+
+.wine__detail-title{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212529;
+    font-weight: 600;
+}
+
+.wine__detail-content{
+    
+}
+
+.wine__detail-row{
+    display: flex;
+    max-width: 100%;
+}
+
+.wine__detail-img{
+    width: 50%;
+}

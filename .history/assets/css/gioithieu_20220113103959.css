@@ -1,0 +1,44 @@
+.wine__intro{
+    padding-top: 90px;
+}
+
+.wine__intro-top{
+    padding: 64px 47px;
+    width: 100%;
+}
+
+
+.wine__intro-info{
+    margin-left: 25%;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.wine__intro-item{
+    display: flex;
+}
+
+.wine__intro-content{
+    padding-left: 16px;
+}
+
+.wine__intro-content h2{
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 12px;
+}
+
+.wine__intro-content p{
+    text-align: justify;
+    max-width: 385px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-bold{
+    font-weight: 700;
+}
